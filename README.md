@@ -1,3 +1,14 @@
+# T3 Data Infrastructure Migration
+Tasty Truck Treats (T3) is a catering company that specializes in operating a fleet of food trucks in Lichfield and its surrounding areas.
+While each food truck operates independently on a day-to-day basis, T3 collects overall sales data from each truck every few hours, giving an overall view of how their fleet is performing.
+Currently, the data is stored in an RDS running MySQL on AWS, and the trucks are responsible for uploading their data to the database. This architecture has been suitable so far but relatively high costs have meant they want to complete a data migration project to move to a new architecture. The chosen architecture is one of a 'Data Lake' which will cut costs whilst still ensuring the data is accessible and usable.
+
+The process will be two step:
+
+* Historical Data Migration: Move all of the existing data from the RDS instance to the new architecture.
+* Periodic Data Migration: Every three hours new data will end up in the database, this will need to be processed and uploaded to the data lake.
+
+
 # Pipeline
 
 #### files that need .env access:
