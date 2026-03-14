@@ -126,11 +126,18 @@ So:
 Currently the dataset size is quite small, so loading everything once and using pandas to filter/aggregate 
 a better approach - cheaper and faster since subsequent operations are in memory.
 
+## Phase 6: Batch processing
+Every 3 hours we batch process the new data from the RDS into the S3. 
+* Updated ETL pipeline to do this, finding max time of data in S3 and getting everything after that datetime in RDS.
+* Dockerised
+* Eventbridge scheduled to run this pipeline task every 3 hours using cron
+
 # Improvements
-- on reflection it may have been better to have sql do the heavy lifting
+- On reflection it may have been better to have sql do the heavy lifting
 - Doing multiple specific queries you get less data downloaded to your machine and then you can cache those results as needed rather can caching the big combined table
+- Dashboard also better to be in terms of weeks, allowing filtering to see 
 
-
-
+# Dashboard
+![image.png](attachment:ef9e793c-ec8e-442a-afd2-6cd6355218fb:image.png)
 # Presentation
 https://drive.google.com/drive/folders/0AMjtC3W2yPm4Uk9PVA
