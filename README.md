@@ -128,10 +128,7 @@ a better approach - cheaper and faster since subsequent operations are in memory
 
 ## Phase 6: Batch processing
 Every 3 hours we batch process the new data from the RDS into the S3. 
-ETL Pipeline: An ECS Fargate task that runs the ETL script to pull data from the RDS and upload it to the Data Lake.
-
-* Updated ETL pipeline to do this, finding max time of data in S3 and getting everything after that datetime in RDS.
-* Dockerised
+* ETL Pipeline: An ECS Fargate task that runs the ETL script to pull data from the RDS and upload it to the Data Lake.
 * Eventbridge scheduled to run this pipeline task every 3 hours using cron
 
 # Improvements
