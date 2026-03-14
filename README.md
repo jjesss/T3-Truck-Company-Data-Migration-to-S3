@@ -137,7 +137,5 @@ Every 3 hours we batch process the new data from the RDS into the S3.
 - Doing multiple specific queries you get less data downloaded to your machine and then you can cache those results as needed rather can caching the big combined table
 - Dashboard also better to be in terms of weeks, allowing filtering to see 
 
-# Dashboard
-![image.png](attachment:ef9e793c-ec8e-442a-afd2-6cd6355218fb:image.png)
 # Presentation
 https://drive.google.com/drive/folders/0AMjtC3W2yPm4Uk9PVA
