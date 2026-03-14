@@ -1,0 +1,6 @@
+pylint
+awswrangler
+streamlit
+boto3
+altair
+pandas

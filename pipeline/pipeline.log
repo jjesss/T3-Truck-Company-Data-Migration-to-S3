@@ -1,0 +1,166 @@
+INFO: ===Starting ETL pipeline.
+INFO: No new rows extracted from RDS.
+ERROR: No extraction output. Exiting pipeline.
+2026-03-10 13:43:22,969 - INFO : ===Starting ETL pipeline.
+2026-03-10 13:43:25,742 - INFO : No new rows extracted from RDS.
+2026-03-10 13:43:25,742 - ERROR : No extraction output. Exiting pipeline.
+2026-03-10 14:00:40,189 - INFO : ===Starting ETL pipeline.
+2026-03-10 14:00:40,363 - INFO : Checking local cleaned CSV for last timestamp.
+2026-03-10 14:00:40,415 - INFO : No new rows extracted from RDS.
+2026-03-10 14:00:40,415 - ERROR : No extraction output. Exiting pipeline.
+2026-03-10 15:10:21,779 - INFO : ===Starting ETL pipeline.
+2026-03-10 15:10:23,157 - INFO : Last timestamp from local cleaned CSV: 2026-03-10 11:58:00
+2026-03-10 15:10:23,215 - INFO : Extracted 202 rows to data files/extracted_truck_data.csv
+2026-03-10 15:10:23,240 - INFO : Wrote cleaned data (5126 rows) to data files/cleaned_truck_data.csv
+2026-03-10 15:10:23,304 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 15:10:23,310 - INFO : Found credentials in environment variables.
+2026-03-10 15:10:23,360 - INFO : Found credentials in environment variables.
+2026-03-10 15:10:30,497 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 15:10:30,497 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 15:13:59,345 - INFO : ===Starting ETL pipeline.
+2026-03-10 15:13:59,739 - INFO : Last timestamp from local cleaned CSV: 2026-03-10 14:59:00
+2026-03-10 15:13:59,766 - INFO : No new rows extracted from RDS.
+2026-03-10 15:13:59,766 - ERROR : No extraction output. Exiting pipeline.
+2026-03-10 15:20:38,109 - INFO : ===Starting ETL pipeline.
+2026-03-10 15:20:39,458 - INFO : Extracted 5126 rows to data files/extracted_truck_data.csv
+2026-03-10 15:20:39,487 - INFO : Wrote cleaned data (5126 rows) to data files/cleaned_truck_data.csv
+2026-03-10 15:20:39,559 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 15:20:39,564 - INFO : Found credentials in environment variables.
+2026-03-10 15:20:39,665 - INFO : Found credentials in environment variables.
+2026-03-10 15:20:47,367 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 15:20:47,368 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 15:22:16,536 - INFO : ===Starting ETL pipeline.
+2026-03-10 15:22:18,550 - INFO : Extracted 5126 rows to data files/extracted_truck_data.csv
+2026-03-10 15:22:18,577 - INFO : Wrote cleaned data (5126 rows) to data files/cleaned_truck_data.csv
+2026-03-10 15:22:18,632 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 15:22:18,637 - INFO : Found credentials in environment variables.
+2026-03-10 15:22:18,686 - INFO : Found credentials in environment variables.
+2026-03-10 15:22:25,398 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 15:22:25,398 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 15:24:40,524 - INFO : ===Starting ETL pipeline.
+2026-03-10 15:24:40,691 - INFO : Found credentials in environment variables.
+2026-03-10 15:24:41,061 - WARNING : Cannot read S3 dataset for last timestamp: Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2026-03-10 15:24:41,175 - INFO : Extracted 5126 rows to data files/extracted_truck_data.csv
+2026-03-10 15:24:41,199 - INFO : Wrote cleaned data (5126 rows) to data files/cleaned_truck_data.csv
+2026-03-10 15:24:41,255 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 15:24:41,258 - INFO : Found credentials in environment variables.
+2026-03-10 15:24:41,299 - INFO : Found credentials in environment variables.
+2026-03-10 15:24:48,590 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 15:24:48,591 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 15:32:48,799 - INFO : ===Starting ETL ..pipeline.
+2026-03-10 15:32:49,061 - INFO : Found credentials in environment variables.
+2026-03-10 15:32:52,925 - INFO : Created CTAS table "c22-jessh-food-truck-sales-db"."temp_table_652b67d4781c4d0abcdbcbdabe63cc17"
+2026-03-10 15:32:53,787 - INFO : Extracted 804 rows to data files/extracted_truck_data.csv
+2026-03-10 15:32:53,812 - INFO : Wrote cleaned data (5126 rows) to data files/cleaned_truck_data.csv
+2026-03-10 15:32:53,862 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 15:32:53,865 - INFO : Found credentials in environment variables.
+2026-03-10 15:32:53,908 - INFO : Found credentials in environment variables.
+2026-03-10 15:33:01,814 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 15:33:01,815 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 17:59:03,607 - INFO : ===Starting ETL pipeline.
+2026-03-10 17:59:04,814 - INFO : Found credentials in environment variables.
+2026-03-10 17:59:07,499 - INFO : Created CTAS table "c22-jessh-food-truck-sales-db"."temp_table_be367a3e96db4e07bc856131ccfafe25"
+2026-03-10 17:59:08,235 - INFO : Extracted 804 rows to data files/extracted_truck_data.csv
+2026-03-10 17:59:08,376 - INFO : Wrote cleaned data (5126 rows) to data files/cleaned_truck_data.csv
+2026-03-10 17:59:08,436 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 17:59:08,440 - INFO : Found credentials in environment variables.
+2026-03-10 17:59:08,496 - INFO : Found credentials in environment variables.
+2026-03-10 17:59:15,740 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 17:59:15,740 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 18:01:32,048 - INFO : ===Starting ETL pipeline.
+2026-03-10 18:01:32,185 - INFO : Found credentials in environment variables.
+2026-03-10 18:01:34,771 - INFO : Created CTAS table "c22-jessh-food-truck-sales-db"."temp_table_d8cf9b64d25e4901858c2a4726ae77ec"
+2026-03-10 18:01:35,446 - INFO : Last timestamp from S3 dataset: 2026-02-28 23:58:00
+2026-03-10 18:01:35,527 - INFO : Extracted 948 rows to data files/extracted_truck_data.csv
+2026-03-10 18:01:35,561 - INFO : Wrote cleaned data (5270 rows) to data files/cleaned_truck_data.csv
+2026-03-10 18:01:35,620 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 18:01:35,624 - INFO : Found credentials in environment variables.
+2026-03-10 18:01:35,682 - INFO : Found credentials in environment variables.
+2026-03-10 18:01:43,024 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 18:01:43,025 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 18:03:10,231 - INFO : ===Starting ETL pipeline.
+2026-03-10 18:03:10,791 - INFO : Found credentials in environment variables.
+2026-03-10 18:03:14,483 - INFO : Created CTAS table "c22-jessh-food-truck-sales-db"."temp_table_2b7e8036ef0448c39f85629f93887787"
+2026-03-10 18:03:15,110 - INFO : Last timestamp from S3 dataset: 2026-02-28 23:58:00
+2026-03-10 18:03:15,205 - INFO : Extracted 948 rows to data files/extracted_truck_data.csv
+2026-03-10 18:03:15,243 - INFO : Wrote cleaned data (5270 rows) to data files/cleaned_truck_data.csv
+2026-03-10 18:03:15,300 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 18:03:15,304 - INFO : Found credentials in environment variables.
+2026-03-10 18:03:15,358 - INFO : Found credentials in environment variables.
+2026-03-10 18:03:22,447 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 18:03:22,447 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 18:44:17,751 - INFO : ===Starting ETL pipeline.
+2026-03-10 18:44:27,874 - ERROR : Failed to connect to RDS: (2003, "Can't connect to MySQL server on 'c22-truck-db.c57vkec7dkkx.eu-west-2.rds.amazonaws.com' (timed out)")
+2026-03-10 18:44:27,875 - ERROR : Database connection failed. Exiting extraction.
+2026-03-10 18:44:27,875 - ERROR : No extraction output. Exiting pipeline.
+2026-03-10 19:25:01,061 - INFO : ===Starting ETL pipeline.
+2026-03-10 19:25:01,474 - INFO : Found credentials in environment variables.
+2026-03-10 19:25:03,530 - INFO : Created CTAS table "c22-jessh-food-truck-sales-db"."temp_table_f7b7467ebba8469f9bdefa6297661c2d"
+2026-03-10 19:25:04,685 - INFO : Last timestamp from S3 dataset: NaT
+2026-03-10 19:25:06,003 - INFO : Extracted 5270 rows to data files/extracted_truck_data.csv
+2026-03-10 19:25:06,033 - INFO : Wrote cleaned data (5270 rows) to data files/cleaned_truck_data.csv
+2026-03-10 19:25:06,088 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 19:25:06,091 - INFO : Found credentials in environment variables.
+2026-03-10 19:25:06,133 - INFO : Found credentials in environment variables.
+2026-03-10 19:25:18,197 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 19:25:18,198 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-10 19:25:34,191 - INFO : ===Starting ETL pipeline.
+2026-03-10 19:25:34,319 - INFO : Found credentials in environment variables.
+2026-03-10 19:25:35,809 - INFO : Created CTAS table "c22-jessh-food-truck-sales-db"."temp_table_d39e7a9599044dbaa326cbf19954f924"
+2026-03-10 19:25:36,549 - INFO : Last timestamp from S3 dataset: 2026-02-28 23:58:00
+2026-03-10 19:25:36,625 - INFO : Extracted 948 rows to data files/extracted_truck_data.csv
+2026-03-10 19:25:36,658 - INFO : Wrote cleaned data (5270 rows) to data files/cleaned_truck_data.csv
+2026-03-10 19:25:36,706 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-10 19:25:36,709 - INFO : Found credentials in environment variables.
+2026-03-10 19:25:36,745 - INFO : Found credentials in environment variables.
+2026-03-10 19:25:46,261 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-10 19:25:46,261 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-12 21:32:11,980 - INFO : ===Starting ETL pipeline.
+2026-03-12 21:32:12,215 - INFO : Found credentials in environment variables.
+2026-03-12 21:32:15,022 - INFO : Created CTAS table "c22-jessh-food-truck-sales-db"."temp_table_ae3e27635a8f497f875bee11385576ca"
+2026-03-12 21:32:15,956 - INFO : Last timestamp from S3 dataset: 2026-02-28 23:58:00
+2026-03-12 21:32:16,086 - INFO : Extracted 2311 rows to data files/extracted_truck_data.csv
+2026-03-12 21:32:16,117 - INFO : Wrote cleaned data (6633 rows) to data files/cleaned_truck_data.csv
+2026-03-12 21:32:16,156 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-12 21:32:16,159 - INFO : Found credentials in environment variables.
+2026-03-12 21:32:16,203 - INFO : Found credentials in environment variables.
+2026-03-12 21:32:25,160 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-12 21:32:25,162 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-12 22:30:55,443 - INFO : ===Starting ETL pipeline.
+2026-03-12 22:30:55,781 - INFO : Found credentials in environment variables.
+2026-03-12 22:30:56,078 - INFO : Last timestamp from S3 dataset (by partition): 2026-03-12 17:00:00
+2026-03-12 22:30:56,125 - INFO : Extracted 23 rows to data files/extracted_truck_data.csv
+2026-03-12 22:30:56,150 - INFO : Wrote cleaned data (6633 rows) to data files/cleaned_truck_data.csv
+2026-03-12 22:30:56,206 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-12 22:31:04,793 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-12 22:31:04,793 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-12 22:31:37,689 - INFO : ===Starting ETL pipeline.
+2026-03-12 22:31:37,856 - INFO : Found credentials in environment variables.
+2026-03-12 22:31:38,152 - INFO : Last timestamp from S3 dataset (by partition): 2026-03-12 17:00:00
+2026-03-12 22:31:38,187 - INFO : Extracted 23 rows to data files/extracted_truck_data.csv
+2026-03-12 22:31:38,218 - INFO : Wrote cleaned data (6633 rows) to data files/cleaned_truck_data.csv
+2026-03-12 22:31:38,280 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-12 22:31:46,291 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-12 22:31:46,291 - INFO : ===ETL pipeline completed successfully.
+
+2026-03-12 22:54:41,289 - INFO : ===Starting ETL pipeline.
+2026-03-12 22:54:41,474 - INFO : Found credentials in environment variables.
+2026-03-12 22:54:41,900 - INFO : Last timestamp from S3 dataset (by partition): 2026-03-12 17:00:00
+2026-03-12 22:54:41,945 - INFO : Extracted 23 rows to data files/extracted_truck_data.csv
+2026-03-12 22:54:41,978 - INFO : Wrote cleaned data (6633 rows) to data files/cleaned_truck_data.csv
+2026-03-12 22:54:42,043 - INFO : Wrote parquet partitions to data files/parquet/
+2026-03-12 22:54:50,005 - INFO : Parquet files uploaded to s3://c22-jessh-food-truck-bucket/ (appended).
+2026-03-12 22:54:50,005 - INFO : ===ETL pipeline completed successfully.
+

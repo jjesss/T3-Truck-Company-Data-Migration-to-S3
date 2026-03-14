@@ -1,0 +1,11 @@
+pylint
+boto3
+openpyxl
+pandas
+redshift_connector
+python-dotenv
+pymysql
+cryptography # for authentication method in MySQL
+altair
+pyarrow
+awswrangler

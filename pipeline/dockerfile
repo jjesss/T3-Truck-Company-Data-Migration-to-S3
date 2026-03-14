@@ -1,0 +1,26 @@
+# Install Python
+# Install Pip
+FROM python:3.12-slim
+
+COPY requirements.txt .
+
+RUN pip3 install -r requirements.txt
+
+RUN mkdir "data files"
+
+COPY README.md .
+
+COPY logger.py .
+
+COPY extract.py .
+
+COPY transform.py .
+
+COPY create_parquet.py .
+
+COPY upload_to_s3.py .
+
+COPY pipeline.py .
+
+# Define the command that runs when we type `docker run container`
+CMD ["python3", "pipeline.py"]
